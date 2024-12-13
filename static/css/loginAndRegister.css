@@ -1,0 +1,226 @@
+/* mask */
+.mask {
+  position: fixed;
+  display: none;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+/* login */
+.login-box {
+  display: none;
+  position: fixed;
+  width: 1000px;
+  height: 500px;
+  left: 250px;
+  bottom: 100px;
+  z-index: 1000;
+}
+
+.login-box .closeBtn {
+  font-size: 30px;
+  position: absolute;
+  left: 970px;
+  top: 10px;
+}
+
+.login-box .closeBtn:hover {
+  cursor: pointer;
+  color: #A55D51;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  padding: 40px 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  perspective: 2700px;
+}
+
+.container .cover {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 50%;
+  z-index: 98;
+}
+
+.container .cover .front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container .cover img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.form-content .login-form {
+  width: calc(100% / 2 - 25px);
+}
+
+.forms .form-content .title {
+  position: relative;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 500;
+  color: #333;
+  background: #fcbb96;
+}
+
+.forms .form-content .input-boxes {
+  margin-top: 30px;
+}
+
+.forms .form-content .input-box {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  margin: 10px 0;
+  position: relative;
+}
+
+.form-content .input-box input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.form-content .input-box i {
+  position: absolute;
+  color: #020202;
+  font-size: 17px;
+}
+
+.forms .form-content .text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.forms .form-content .text span {
+  color: #A3572A;
+}
+
+.forms .form-content .text span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.forms .form-content .button {
+  color: #fff;
+  margin-top: 40px;
+}
+
+.forms .form-content .button input {
+  color: #fff;
+  background: #A3572A;
+  border-radius: 20px;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.forms .form-content .button input:hover {
+  background: #f5935b;
+}
+
+.forms .form-content a {
+  color: #A3572A;
+  cursor: pointer;
+}
+
+.forms .form-content a:hover {
+  text-decoration: underline;
+}
+
+.forms .form-content .login-text {
+  text-align: center;
+  margin-top: 25px;
+}
+
+
+/* register */
+.register-box {
+  position: fixed;
+  top: 6%;
+  left: 35%;
+  width: 500px;
+  height: 600px;
+  display: none;
+  background: #D6CEC4;
+  border: 2px solid #333;
+  padding: 40px;
+}
+
+.close-btn {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+/* 标题 Register */
+.register-box h2 {
+  margin-bottom: 15px;
+  font-size: 28px;
+  margin-left: 150px;
+  color: #333;
+}
+
+.register-box form {
+  margin-left: 55px;
+}
+
+.register-box form input {
+  margin-bottom: 20px;
+  margin-top: 5px;
+  padding-left: 15px;
+  border: 1px solid #333;
+  width: 300px;
+  height: 30px;
+}
+
+.register-box .Account-Information label {
+  font-size: 20px;
+}
+
+.Signup {
+  background-color: #A3572A;
+  background: #A3572A;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 60px;
+
+  position: absolute;
+  top: 85%;
+  left: 40%;
+  opacity: 0.9;
+}
+.Signup:hover{
+  opacity: 1;
+}
+.active {
+  display: unset;
+}

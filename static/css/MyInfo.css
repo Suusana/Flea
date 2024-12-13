@@ -1,0 +1,317 @@
+.top1 {
+    display: flex;
+    justify-content: start;
+    height: 90px;
+    background-color: #A29192;
+}
+
+.top1 img {
+    margin-top: 15px;
+    margin-left: 110px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.top1 .text {
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.left-nav {
+    margin: 15px 0 300px 140px;
+    width: 225px;
+    border: 2px solid #58231B;
+    background-color: #F6F6F6;
+}
+
+.left-nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 225px;
+    height: 300px;
+}
+
+.left-nav ul li {
+    font-size: 14px;
+}
+
+.left-nav ul li:hover {
+    color: #58231B;
+    cursor: pointer;
+    border-bottom: 2px solid #58231B;
+}
+
+.left-nav ul li .iconfont {
+    font-size: 30px;
+}
+
+.info {
+    position: absolute;
+    left: 390px;
+    top: 230px;
+    border-radius: 20px;
+    width: 990px;
+    height: 575px;
+    background-color: #FFF8F1;
+    display: none;
+}
+
+.info img {
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.info p {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.info form label {
+    margin-top: 10px;
+}
+
+#submitForm {
+    position: relative;
+    bottom: 80px;
+    right: 250px;
+
+    border: 2px solid #DBD2BC;
+    border-radius: 20px;
+    width: 160px;
+    height: 40px;
+    background-color: #F8E4B6;
+}
+
+#submitForm,
+button:hover {
+    cursor: pointer;
+    background-color: #F4CD71;
+}
+
+#price {
+    top: 710px;
+    left: -300px;
+    width: 200px;
+    border: 1px solid #333;
+}
+
+.info form {
+    position: relative;
+    left: 300px;
+    bottom: 260px;
+    margin-left: 50px;
+}
+
+.info form .sex {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 10px 100px;
+    width: 520px;
+}
+
+
+.info form label input[type=text],
+.info form label input[type=email] {
+    padding-left: 15px;
+    margin-top: 10px;
+    width: 520px;
+    height: 40px;
+    background-color: #F2EBD9;
+    border-radius: 20px;
+}
+
+.info .box {
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 20px;
+    width: 910px;
+    height: 420px;
+    background-color: #F8E4B6;
+}
+
+.info .box form {
+    position: relative;
+}
+
+.info .box form input[type=text] {
+    position: absolute;
+    top: 295px;
+    right: 360px;
+    padding: 10px;
+    font-size: 16px;
+    width: 800px;
+    height: 40px;
+}
+
+.info .box form textarea {
+    position: absolute;
+    top: 350px;
+    right: 360px;
+    padding: 10px;
+    resize: none;
+    font-size: 16px;
+    width: 800px;
+    height: 300px;
+}
+
+.info .box form input[type=file] {
+    margin-top: 720px;
+    margin-right: 20px;
+}
+
+.info .box form input[type=submit] {
+    margin-right: 260px;
+    top: 0;
+    right: 10px;
+    border: 2px solid #DBD2BC;
+    border-radius: 20px;
+    width: 160px;
+    height: 40px;
+    background-color: #F8E4B6;
+}
+
+.info .box form input[type=submit]:hover {
+    cursor: pointer;
+    background-color: #F4CD71;
+}
+
+.info .manage {
+    width: 990px;
+    height: 575px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.info .manage h3 {
+    margin-top: 15px;
+    margin-left: 400px;
+}
+
+.info .manage .post {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 900px;
+    height: 150px;
+    background-color: #F8E4B6;
+    border-radius: 10px;
+}
+
+.info .manage .post img {
+    width: 130px;
+    height: 120px;
+    border-radius: 0;
+    margin: 15px 0;
+}
+
+.info .manage .post .content {
+    margin-top: 15px;
+    width: 590px;
+    height: 120px;
+}
+
+.info .manage .post .content span {
+    display: inline-block;
+    margin-top: 9px;
+    width: 500px;
+    height: 20px;
+    margin-left: 25px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.info .manage .post .content p {
+    margin-top: 0;
+    margin-left: 25px;
+
+    width: 500px;
+    height: 86px;
+    font-size: 14px;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+
+.info .manage .post .content:hover {
+    cursor: pointer;
+}
+
+.info .manage .post .button {
+    margin-top: 15px;
+}
+
+.info .manage .post .button .iconfont {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.info .manage .post .button .iconfont:hover {
+    cursor: pointer;
+    color: #A29192;
+}
+
+.info .manage .post .icon-icon- {
+    margin-top: 50px;
+    font-size: 30px;
+    color: red;
+}
+
+.info .manage .post .icon-icon-:hover {
+    cursor: pointer;
+    color: #73190b;
+}
+
+.info .manage .post .num {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#order .manage .post {
+    height: 250px;
+}
+
+.info .manage .order {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.info .manage .order p {
+    display: inline-block;
+    margin: 0 150px 0 0;
+}
+
+.info.show {
+    display: unset;
+}
+
+li.active {
+    color: #58231B;
+    cursor: pointer;
+    border-bottom: 2px solid #58231B;
+}
+
+#comfirm{
+    position: relative;
+    top: 220px;
+    left: 118px;
+    font-size: 16px;
+}
+
+#comfirm:hover{
+    cursor: pointer;
+    color: #58231B;
+}

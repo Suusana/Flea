@@ -1,0 +1,145 @@
+/* CSS for .post class */
+.background.wrapper {
+    background-color: #DBD2BC;
+    margin-top: 20px;
+}
+
+.post {
+    background-color: #FFF8F1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post a {
+    text-decoration: none;
+    color: #333;
+}
+
+.post .post-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.post-image {
+    max-width: 60%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.test {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.introduce {
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: justify;
+    width: 70%;
+}
+
+.user-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-weight: 400;
+    color: #333;
+}
+
+.userlogo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.username {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.price {
+    margin-top: 20px;
+}
+
+.price p {
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    color: #ff5e5e;
+}
+
+.iconfont {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+    align-self: flex-end;
+    /* add this line */
+}
+
+.icons-container {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    ;
+}
+
+
+.icon-gouwuchekong {
+    color: #333;
+
+}
+
+.icon-shoucang {
+    color: #333;
+}
+
+.icon-xiaoxi {
+    color: #333;
+}
+
+.messbox {
+    display: inline-block;
+    margin-left: 10px;
+    color: #333;
+}
+
+#back {
+    position: relative;
+    top: 70px;
+    left: 50px;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+}
+
+#back:hover{
+    cursor: pointer;
+    background-color: #DBD2BC;
+}
